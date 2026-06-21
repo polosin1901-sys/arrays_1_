@@ -8,7 +8,7 @@ public class Main {
         int[] inputArray1 = {100, 200, 300, 400, 500};
         float[] outputArray1 = new float[4];
         int sum = 0;
-        int max = 0;
+        int max = inputArray1[0];
         int min = inputArray1[0];
         for (int sumM : inputArray1) {
 
@@ -77,8 +77,8 @@ public class Main {
             if (x > 0) {
                 monthProfit++;
             }
-            outputArray5[0] = monthProfit;
         }
+        outputArray5[0] = monthProfit;
         System.out.println(Arrays.toString(inputArray5));
         System.out.println(Arrays.toString(outputArray5));
     }
